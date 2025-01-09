@@ -1,0 +1,61 @@
+/* AdminNavbar.css */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacement entre l'icône et le texte */
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff9800;
+}
+
+.navbar button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: #d32f2f;
+}
+
+.navbar img {
+    width: 30px; /* Taille des icônes ajustée */
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle; /* Aligne les icônes avec le texte */
+}
+.navbar .logo {
+    width: 60px; /* Ajuste la largeur souhaitée du logo */
+    height: 50px; /* Garde le ratio de l'image */
+}
